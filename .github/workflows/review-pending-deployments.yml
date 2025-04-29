@@ -2,10 +2,7 @@ name: 03-2. Review Pending Deployments (WIP)
 on: 
   workflow_dispatch:
     inputs:
-      run_id:
-        description: 'run_id'
-        required: true
-        default: ''
+      inputs: {}
       environment_ids:
         description: 'environment_ids'
         required: true
