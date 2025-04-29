@@ -2,11 +2,6 @@ name: 06-1. Self-Hosted Linux Hello - Never run on public repo
 
 on:
   workflow_dispatch:
-    inputs:
-      name:
-        description: 'What is your name?'
-        required: true
-        default: 'World'
         
 jobs:
   say_hello: 
