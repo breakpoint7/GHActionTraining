@@ -18,7 +18,7 @@ jobs:
         shell: bash
   hello_world_job2:
     runs-on: ubuntu-latest
-    name: A job2 to say hello again
+    name: A job2 to say hello again ok
     steps:
       - uses: actions/checkout@v4
       - id: hello-world
