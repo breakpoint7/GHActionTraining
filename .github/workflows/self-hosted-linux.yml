@@ -2,7 +2,7 @@ name: 06-1. Self-Hosted Linux Hello - Never run on public repo
 
 on:
   workflow_dispatch:
-        
+    inputs: {}      
 jobs:
   say_hello: 
     # This will not work on a public repo unless allowed
